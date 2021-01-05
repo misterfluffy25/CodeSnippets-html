@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+  <title>Websites Title</title>
+  <meta charset="utf-8" />
+  <meta name="keywords" content="LANGUAGES USED">
+  <meta name="author" content="DEVELOPER'S NAME">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Robot.txt-->
+  <!--Should be added according to convinience-->
+  <meta name="”robots”" content="”noindex," nofollow”="">
+  <meta http-equiv="cache-control" content="no-cache">
+  <!--Linked Files-->
+  <!--Linked CSS file-->
+  <link rel = "stylesheet" type = "text/css" href = "mycssfile.css" />
+  <!--Linked JS file-->
+  <script src = "myjsfile.js" type = "text/javascript">Linked JavaScript file</script>
+</head>
+<body>
+  <!--If Needed-->
+  <header>
+  </header>
+  <footer>
+  </footer>
+</body>
+</html>
