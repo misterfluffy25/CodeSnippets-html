@@ -1,0 +1,59 @@
+<!--Written By Yashaswee-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+</head>
+<body>
+    <form action="">
+        <h1 style = text-align:center;>Payment Form</h1>
+        <fieldset>
+            <legend><strong>Contact Information</strong></legend>
+        <fieldset>
+            <legend>Name</legend>
+        <p>First Name: <input type="text" name = "firstname" required></p>
+        <p>Middle Name: <input type="text" name = "middlename"></p>
+        <p>Last Name: <input type="text" name = "lastname", required></p>
+    </fieldset>
+        <fieldset>
+            <legend>Gender</legend>
+        <p>Male <input type = "radio" name = "gender" id = "male">Female <input type = "radio" name = "gender" id = "female">Others <input type = "radio" name = "gender" id = "others"></p>
+    </fieldset>
+    <fieldset>
+        <legend>Address</legend>
+        <p><textarea name="address" id = "address" cols="50" rows="10"  required></textarea></p>
+    </fieldset>
+    <fieldset>
+        <legend>E-mail</legend>
+        <input type="email" name="email" id="email", required>
+    </fieldset>
+    <fieldset>
+        <legend>PIN Code</legend>
+        <input type="number" name="pincode" id="pincode" min="6" max="6" required>
+    </fieldset>
+</fieldset>
+<fieldset>
+<!--Written by Yashaswee-->
+    <legend><strong>Payment Information</strong></legend>
+    <fieldset>
+        <legend>Card Information</legend>
+        <select name="cardtype" id="cardtype",required>
+            <!--We have to leave the first value empty as in when for the first time the user visits our website it will by default will send some value to the server which will be written in value-->
+            <option value="">Select a card type</option>
+            <option value="visa">VISA</option>
+            <option value="rupay">RUPAY</option>
+            <option value="maestor">MAESTRO</option>
+        </select>
+        <p>Card Number <input type="number" name="cardnumber" id="cardnumber" min="16" max="16" required></p>
+        <p>Expiry Date <input type="date" name="expdate" id="expdate" required></p>
+        <p>CVV <input type="password" name="cvvnumber" id="cvvnumber" min="3" max = "3" required></p>
+    </fieldset>
+</fieldset>
+<a href = "">I have read the terms and conditions </a><input type="checkbox" name="terms" id="terms" required><br>
+<input type="submit" value="Pay Now" required>
+    </form>
+</body>
+</html>
+<!--Written By Yashaswee-->
